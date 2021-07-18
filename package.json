@@ -5,6 +5,9 @@
   "repository": "git@github.com:copyx/typescript-study.git",
   "author": "Jingi Kim <copyx00@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
   "devDependencies": {
     "typescript": "^4.3.5"
   }
