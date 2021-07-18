@@ -9,4 +9,4 @@ x[1] = 10;
 
 const person: [string, number] = ['jake', 33];
 
-const [first, second, third] = person;
+// const [first, second, third] = person; // 튜플에는 세 번째 인자에 접근 불가

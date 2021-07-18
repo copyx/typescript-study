@@ -1,4 +1,6 @@
-function returnAny(message): any {
+// message가 any 타입으로 암시적 추론되서 에러
+// function returnAny(message): any {
+function returnAny(message: any): any {
     console.log(message);
 }
 
@@ -16,4 +18,4 @@ function leakingAny(obj: any) {
 }
 
 const c = leakingAny({num: 0});
-c.indexOf("0");
+// c.indexOf("0"); // c는 number 형식이라 indexOf 사용 불가능
